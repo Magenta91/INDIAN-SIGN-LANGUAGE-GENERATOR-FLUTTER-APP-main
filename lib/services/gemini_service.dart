@@ -1,7 +1,7 @@
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GeminiService {
-  static const String apiKey = 'AIzaSyC3Pb91zUk_Co7Gi6qTFA-hplBGYpF75lo'; // Replace with your actual API key
+  static const String apiKey = 'Replace_with_your_actual_API_key'; 
   late final GenerativeModel _model;
   DateTime? _lastRequestTime;
   static const int _minSecondsBetweenRequests = 10; // Minimum seconds between requests
